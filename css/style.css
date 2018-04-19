@@ -1,0 +1,459 @@
+.text-sky > a {
+    color: #0bacd3!important;
+    transition: 0.2s;
+}
+
+.text-sky > a:hover {
+    color: #f4ad49!important;
+    transition: 0.2s;
+}
+
+/* BTN BOOTSTRAP */
+.text-hot {
+    color:#df6a78 !important;
+}
+
+.btn-hot {
+color: #fff;
+background-color: #db5566;
+border-bottom:2px solid #af4451;
+}
+
+.btn-hot:hover, .btn-sky.active:focus, .btn-hot:focus, .open>.dropdown-toggle.btn-hot {
+color: #fff;
+background-color: #df6a78;
+border-bottom:2px solid #b25560;
+outline: none;
+}
+
+.btn-hot:active, .btn-hot.active {
+color: #fff;
+background-color: #c04b59;
+border-top:2px solid #9a3c47;
+margin-top: 2px;
+}
+
+.text-sunny {
+    color:#f4ad49 !important;
+}
+
+.text-lime {
+    color:#8bc34a !important;
+}
+
+.btn-sunny {
+color: #fff;
+background-color: #f4ad49;
+border-bottom:2px solid #c38a3a;
+}
+
+.btn-sunny:hover, .btn-sky.active:focus, .btn-sunny:focus, .open>.dropdown-toggle.btn-sunny {
+color: #fff;
+background-color: #f5b75f;
+border-bottom:2px solid #c4924c;
+outline: none;
+}
+
+.btn-sunny:active, .btn-sunny.active {
+color: #fff;
+background-color: #d69840;
+border-top:2px solid #ab7a33;
+margin-top: 2px;
+}
+
+.text-fresh {
+    color:#51bf87 !important;
+}
+
+.btn-fresh {
+color: #fff;
+background-color: #51bf87;
+border-bottom:2px solid #41996c;
+}
+
+.btn-fresh:hover, .btn-sky.active:focus, .btn-fresh:focus, .open>.dropdown-toggle.btn-fresh {
+color: #fff;
+background-color: #66c796;
+border-bottom:2px solid #529f78;
+outline: none;
+}
+
+.btn-fresh:active, .btn-fresh.active {
+color: #fff;
+background-color: #47a877;
+border-top:2px solid #39865f;
+outline: none;
+outline-offset: none;
+margin-top: 2px;
+}
+
+.text-sky {
+    color:#0bacd3 !important;
+}
+
+.btn-sky {
+color: #fff;
+background-color: #0bacd3;
+border-bottom:2px solid #098aa9;
+}
+
+.btn-sky:hover,.btn-sky.active:focus, .btn-sky:focus, .open>.dropdown-toggle.btn-sky {
+color: #fff;
+background-color: #29b6d8;
+border-bottom:2px solid #2192ad;
+outline: none;
+}
+
+.btn-sky:active, .btn-sky.active {
+color: #fff;
+background-color: #0a97b9;
+border-top:2px solid #087994;
+outline-offset: none;
+margin-top: 2px;
+}
+
+.bg-navbar { 
+/*    background-color:#202020 !important;*/
+    background: linear-gradient(-45deg,#086460,#043634); !important;
+}
+nav {
+	margin-bottom: 20px;
+}
+
+a.nav-link {
+    color: #11b6af !important;
+    border-radius: 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    text-transform: capitalize !important;
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.nav-link:active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.nav-link:target {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.bg-dark { 
+    background-color:#161616 !important;
+}
+
+.bg-green-ish {
+    background: linear-gradient(-45deg,#010909,#021716,#010909) center center fixed
+}
+
+label.scrismic {
+	color: #5b5b5b;
+}
+
+.is-focused [class*=" bmd-label"], .is-focused [class^=bmd-label] {
+    color: #a9a9a9 !important;
+}
+.bmd-form-group .bmd-label-static, .bmd-form-group.is-filled .bmd-label-floating, .bmd-form-group .is-filled .bmd-label-floating, .bmd-form-group.is-focused .bmd-label-floating, .bmd-form-group .is-focused .bmd-label-floating {
+    top: 1rem;
+    left: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Stilurile > Tabelele de Parts */
+.tabel-rezultat {
+    background: linear-gradient(-45deg,#086460,#043634);
+    border-radius: 30px;
+    color: #0b736f;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.tabel-informatii {
+    background: linear-gradient(-45deg,#086460,#043634);
+    border-radius: 30px;
+    color: #0b736f;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.mijloc {
+    padding: 0px 20px 20px !important;
+    background: linear-gradient(-45deg,#086460,#043634) !important;
+    border-radius: 0 0 30px 30px;
+	/* background: url(../img/bg1.jpg) center center fixed;
+	background-size: cover; */
+    margin-top: -8px;
+}
+
+.mijloc-model {
+    padding: 20px;
+    background: linear-gradient(-45deg,#086460,#043634) !important;
+    border-radius: 0 0 30px 30px;
+	/* background: url(../img/bg1.jpg) center center fixed;
+	background-size: cover; */
+    margin-top: -8px;
+}
+
+.header-mijloc {
+    padding: 20px;
+    background: linear-gradient(-45deg,#05413e,#021e1d) !important;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 1px solid #0b837e;
+	/* background: url(../img/bg1.jpg) center center fixed;
+	background-size: cover; */
+}
+
+.header-tabel {
+    color: #0b837e;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #074d4a;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 24px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.header-tabel-informatii {
+    color: #0b837e;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #074d4a;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 24px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.font-mic {
+    font-size: 13px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.font-mic-informatii {
+    font-size: 13px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.border-down-title {
+    border-bottom: 1px solid #074441;
+}
+
+.border-down-title-informatii {
+    border-bottom: 1px solid #074441;
+}
+
+.color-impar {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.color-impar-informatii {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.color-par {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.color-par-informatii {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bottom-border-left {
+    border-radius: 0px 0px 0px 30px !important;
+}
+
+.bottom-border-right {
+    border-radius: 0px 0px 30px 0px !important;
+}
+
+.results-padding {
+    margin-top: 25px;
+}
+
+.fundal-lista {
+    background-color: linear-gradient(-45deg,#086460,#043634); !important;
+    color: #0b837e !important;
+    align-content: center !important;
+}
+
+p.green-color {
+    color: #096965 !important;
+}
+
+h2.green-color {
+    color: #0b837e !important;
+}
+
+.green-color {
+    color: #11b6af !important;
+}
+
+.marime-font-titluri {
+    font-size: 18px !important;
+}
+
+.margin-top-butoanie {
+    margin-top: 35px;
+}
+
+.margin-jos-title {
+    margin-bottom: 7px;
+}
+
+.result1 {
+    -webkit-box-shadow: 0px 6px 9px -5px rgba(15,15,15,1);
+    -moz-box-shadow: 0px 6px 9px -5px rgba(15,15,15,1);
+    box-shadow: 0px 6px 9px -5px rgba(15,15,15,1);
+}
+.result2 {
+    -webkit-box-shadow: 0px 6px 9px -5px rgba(15,15,15,1);
+    -moz-box-shadow: 0px 6px 9px -5px rgba(15,15,15,1);
+    box-shadow: 0px 6px 9px -5px rgba(15,15,15,1);
+}
+
+/* Underline-urile > Textele de la Explications */
+.btn-engine.focus, .btn-engine:focus, .btn-engine:hover {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #522410;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn-forced-induction.focus, .btn-forced-induction:focus, .btn-forced-induction:hover {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #93d1ff;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn-transmissions.focus, .btn-transmissions:focus, .btn-transmissions:hover {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #ff8a87;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn-suspensions.focus, .btn-suspensions:focus, .btn-suspensions:hover {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #47e67c;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn-brakes.focus, .btn-brakes:focus, .btn-brakes:hover {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #381f00;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn-tires.focus, .btn-tires:focus, .btn-tires:hover {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #20002c;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+/* Stilurile > Textele de la Explications */
+
+.text-capitalyze {
+    text-transform: capitalize;
+}
+
+.bg-gradient-galben-roz {
+    background: linear-gradient(-45deg,#fe0847,#feae3f);
+}
+
+.bg-engines {
+    background: linear-gradient(-45deg,#9d441f,#f9b23c);
+}
+
+.bg-forced-inductions {
+    background: linear-gradient(-45deg,#081f42,#185d8f);
+}
+
+.bg-transmissions {
+    background: linear-gradient(-45deg,#891815,#bf3330);
+}
+
+.bg-suspensions {
+    background: linear-gradient(-45deg,#006421,#009933);
+}
+
+.bg-brakes {
+    background: linear-gradient(-45deg,#bd7314,#ebce30);
+}
+
+.bg-tires {
+    background: linear-gradient(-45deg,#65008b,#ba00ff);
+}
+
+.bg-darker-gradient {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.bg-darker-gradient-padding {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 5px 15px 5px;
+}
+
+.card .card-header {
+    padding: 3px;
+    background-color: transparent;
+}
+
+.card {
+    background-color: transparent;
+}
+.modal-content {
+	background-color: transparent;
+	border: 0;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0);
+}
+.header-modal {
+	padding: 20px !important;
+    background: linear-gradient(-45deg,#05413e,#021e1d) !important;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 1px solid #0b837e;
+}
+.body-modal {
+    padding: 0px 20px 20px;
+    background: linear-gradient(-45deg,#086460,#043634);
+}
+.footer-modal {
+	padding: 20px !important;
+    background: linear-gradient(-45deg,#05413e,#021e1d) !important;
+    border-radius: 0px 0px 30px 30px;
+}
+button.close {
+	text-shadow: 0 1px 0 #086460;
+}
+
+.body-rosu {
+	background: linear-gradient(-45deg,#010b0b,#03201f,#010b0b) center center fixed;
+}
+.navbar-rosu {
+	background: linear-gradient(-45deg,#891815,#bf3330) center top fixed;
+}
+a.nav-link-rosu{
+	color: #bf3330 !important;
+}
+option {
+	background: #021f1e;
+}
